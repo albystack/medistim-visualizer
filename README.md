@@ -58,7 +58,7 @@ medistim-visualizer/
 - Node.js (v16 or higher)
 - npm or yarn
 - Expo CLI
-- iOS Simulator (Mac only) or Android Emulator
+- Android emulator (used in this project), can also use IOS emulator
 
 ### Installation
 
@@ -142,10 +142,6 @@ Contributions are welcome! Please ensure:
 ## Disclaimer
 
 This application is intended for **educational purposes only**. The reference ranges and visualizations are representative examples and should not be used for actual clinical decision-making. Always consult validated medical guidelines and qualified healthcare professionals for patient care.
-
-## License
-
-[Your License Here]
 
 ## Author
 
