@@ -2,6 +2,7 @@
   "expo": {
     "name": "medistim-visualizer",
     "slug": "medistim-visualizer",
+    "scheme": "medistim",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,20 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.albirescigno.medistimvisualizer"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b122e1e0-3478-4310-b571-9e76368b56d0"
+      }
     }
   }
 }
